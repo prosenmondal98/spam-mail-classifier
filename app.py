@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 
 ps= PorterStemmer()
 
-
+# hello
 def transform_text(text):
     text = text.lower()  # lower case
     text = nltk.word_tokenize(text)  # tokenize
